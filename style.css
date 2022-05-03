@@ -1,5 +1,54 @@
+root {
+  --main-text: hsl(238, 29%, 16%);
+  --secondary-color: hsl(14, 88%, 65%);
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
 body {
-    font-size: 12px;
-    background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
-    font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(273, 75%, 66%);
+}
+
+footer {
+  margin-top: auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--main-text);
+  margin-top: 5rem;
+  font-weight: 700;
+}
+
+.card {
+    background-color: #fdf9f3;
+    border-radius: 25px;
+    min-height: fit-content;
+    margin: 0 20px 0 20px;
+}
+
+img {
+    height: auto;
+    width: 60vw;
+    transform: translate(28%, 40%);
+    /* box-shadow: -1px 21px 5px -1px rgba(0,0,0,0.39); */
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-weight: 400;
+    margin-right: auto;
+
+}
+
+.question img {
+    border: red solid 1px
 }
