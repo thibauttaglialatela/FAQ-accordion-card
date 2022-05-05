@@ -46,9 +46,14 @@ img {
 h3 {
     font-weight: 400;
     margin-right: auto;
-
+    font-size: initial;
 }
 
 .question img {
     border: red solid 1px
+}
+
+hr {
+  color:hsl(240, 5%, 91%);
+  margin: 0 20px 0 20px;
 }
