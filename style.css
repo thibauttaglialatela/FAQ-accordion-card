@@ -17,12 +17,19 @@ footer {
   margin-top: auto;
 }
 
+.container {
+  display:flex;
+  flex-direction: column;
+}
+
 h1 {
   text-align: center;
   color: var(--main-text);
   margin-top: 5rem;
   font-weight: 700;
 }
+
+
 
 .card {
     background-color: #fdf9f3;
@@ -35,12 +42,12 @@ img {
     height: auto;
     width: 60vw;
     transform: translate(28%, 40%);
-    /* box-shadow: -1px 21px 5px -1px rgba(0,0,0,0.39); */
 }
 
 .question {
     display: flex;
     justify-content: space-between;
+    margin: 0 1rem 0 1rem;
 }
 
 h3 {
@@ -49,9 +56,24 @@ h3 {
     font-size: initial;
 }
 
-.question img {
-    border: red solid 1px
+h3:hover {
+  color:coral;
 }
+
+h3:active {
+  font-weight: 700;
+}
+
+p {
+  text-align: left;
+  padding: 0 2rem 0 2rem;
+  display: none;
+}
+
+/* .question img {
+    border: red solid 1px
+} */
+
 
 hr {
   color:hsl(240, 5%, 91%);
